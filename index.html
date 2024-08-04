@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM Azul</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://scontent.fcor3-1.fna.fbcdn.net/v/t1.6435-9/86362799_108515354072260_9000747887444885504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHvTRNdljIYl6SumH7u0oRvuWodgVtwRGG5ah2BW3BEYZzc8NYs0wLy_p2mex-1NbEwVjNllYwlUh8d3mnvGq5a&_nc_ohc=bZiYGc3w6j0Q7kNvgGh-g5l&_nc_ht=scontent.fcor3-1.fna&oh=00_AYAI_OgTnvO31XCBUeftr_fwQ-jimTYGAdELwh9DY5Ekww&oe=66D6435B" alt="Logo del programa de radio">
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#programacion">Programación</a></li>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#contactenos">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a FM Azul 87.9 La Radio de la gente.</h1>
+            <p>Disfruta de la mejor programación semanal.</p>
+            <div class="reproductor">
+                <h2>Escucha en Vivo</h2>
+                <audio id="audioPlayer" controls>
+                    <source src="https://radio13.servidorderadio.net/8062/stream" type="audio/mpeg">
+                </audio>
+                <button id="playButton" class="boton"><img src="reproducir-Photoroom.png", height="20"></button>
+                <button id="pauseButton" class="boton"><img src="pausa-Photoroom.png", height="20"></button>
+            </div>
+        </section>
+
+        <section id="programacion">
+            <h2>Programación</h2>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/NELSON.png" alt="Programa 1">
+                <div class="programa-info">
+                    <h3>Caminando La Mañana.</h3>
+                    <p>Día y Hora: Lunes a Viernes de 09:00 a 12:00</p>
+                    <p>Conducción: Nelson Cravero.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/JULIO.png" alt="Programa 2"><br>
+                <img src="https://img.webme.com/pic/e/escuchafmazul/DANIEL.jpg" alt="Programa 2">
+                <div class="programa-info">
+                    <h3>Corazón y Pases Cortos.</h3>
+                    <p>Día y Hora: Lunes 19:30</p>
+                    <p>Conducción: Daniel Barbero y Julio Alessandia.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/EDUARDO.png" alt="Programa 3">
+                <div class="programa-info">
+                    <h3>Noche de Tango.</h3>
+                    <p>Día y Hora: Lunes 21:30</p>
+                    <p>Conducción: Eduardo Danielle.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/DANIEL.jpg" alt="Programa 4">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/copito.png" alt="Programa 4">
+                <div class="programa-info">
+                    <h3>La Sabatina de Carpi.</h3>
+                    <p>Día y Hora: Sábados 09:00 - 10:30</p>
+                    <p>Conducción: Daniel Barbero.</p>
+                    <p>Opera: Gabriel "Copito" Grosso.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/EDUARDO.png" alt="Programa 5">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/copito.png" alt="Programa 5">
+                <div class="programa-info">
+                    <h3>Los Lentos.</h3>
+                    <p>Día y Hora: Sábado 10:30</p>
+                    <p>Conducción: Eduardo Danielle.</p>
+                    <p>Opera: Gabriel "Copito" Grosso.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="2.jpg" alt="Programa 6">
+                <div class="programa-info">
+                    <h3>Radio y Mates.</h3>
+                    <p>Día y Hora: Sábados 18:00 - 20:00</p>
+                    <p>Conducción y operador: Julio Arrieta.</p>
+                </div>
+            </div>
+            <div class="programa">
+                <img src="https://img.webme.com/pic/e/escuchafmazul/CRISTIAN.jpg" alt="Programa 7">
+                <div class="programa-info">
+                    <h3>La Mañana del Domingo.</h3>
+                    <p>Día y Hora: Domingos 09:00</p>
+                    <p>Conducción y operador: Criatian Racca.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quienes-somos">
+            <h2>¿Quiénes somos?</h2>
+            <p>FM Azul 87.9 - Historia y Misión
+
+                Fundada el 8 de marzo de 2020, FM Azul 87.9 ha crecido hasta convertirse en una querida radio de barrio, dedicada a entretener y llevar alegría a los hogares de nuestra comunidad. Desde su creación, nuestro objetivo ha sido ser una fuente de entretenimiento, ofreciendo una programación variada que incluye música, noticias y contenido cultural.<br><br>
+                
+                En FM Azul 87.9, creemos en el poder de la radio para conectar a las personas y crear un sentido de comunidad. Nuestra programación está diseñada para satisfacer los gustos de todos nuestros oyentes, con un enfoque especial en el cuarteto retro y actual, que es parte de nuestra identidad y patrimonio cultural.<br><br>
+                
+                A lo largo de estos años, hemos trabajado arduamente para mantenernos cerca de nuestra audiencia, siempre adaptándonos y evolucionando para satisfacer sus necesidades y preferencias. Con cada emisión, buscamos no solo entretener, sino también informar y acompañar a nuestros oyentes en su vida diaria.<br><br>
+                
+                Gracias por ser parte de nuestra historia y por permitirnos seguir llevando alegría y entretenimiento a sus hogares. FM Azul 87.9 es más que una radio; es un reflejo de nuestra comunidad, y estamos orgullosos de ser su voz.<br>
+                
+                </p>
+                <img src="https://scontent.fcor3-1.fna.fbcdn.net/v/t39.30808-6/444788868_974761420780978_6770058050367317769_n.png?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGtRjo8b3m2j6h9SjDH3iFGLn6c61SFfvwufpzrVIV-_CrFAc-3uWeujcxA5ZaMlm0itibf6nsEDHbRVp5k0XKH&_nc_ohc=il0btpsXG1UQ7kNvgGBQwKf&_nc_ht=scontent.fcor3-1.fna&oh=00_AYDhFlrUeZi-exAuVbYoV1VlkQnfy-fOwix6dJeQcjWCpg&oe=66B58764">
+        </section>
+
+        <section id="contactenos">
+            <h2>Contáctenos</h2>
+
+            <p>Seguinos en nuestras redes sociales, además podes descargar nuestra app desde tu tienda de descarga.</p>
+            <a href="https://www.facebook.com/fmazul.portena.7" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png", height="60"></a>
+            <a href="https://www.instagram.com/fm_azul_/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png", height="60"></a>
+            <a href="" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png", height="60"></a>
+            <img src="https://ams3.digitaloceanspaces.com/graffica/2022/07/714262829697e9749a4aa86b3c1f5538-976x1024.png", height="70">
+        </section>
+    </main>
+
+    <script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const pauseButton = document.getElementById('pauseButton');
+
+        playButton.addEventListener('click', () => {
+            audioPlayer.play();
+        });
+
+        pauseButton.addEventListener('click', () => {
+            audioPlayer.pause();
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2024 FM Azul 87.9. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
