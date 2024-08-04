@@ -164,6 +164,11 @@ footer {
     }
 }
 
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width: 480px) {
     header {
         flex-direction: column;
